@@ -13,7 +13,7 @@
     <!-- header -->
     <header>
         <!-- nav-bar -->
-        <section>
+        <div>
             <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </nav>
-        </section>
+        </div>
         <!-- nav-bar-end -->
     </header>
     <!-- header-end -->
@@ -53,7 +53,7 @@
                 <!-- title-and-add-button -->
                 <section class="d-flex justify-content-between">
                     <h5>Catalogo Libri</h5>
-                    <button type="button" class="btn btn-primary">Aggiungi libro</button>
+                    <a href="addbook.html" class="btn btn-primary">Aggiungi libro</a>
                 </section>
                 <!-- title-and-add-button-end -->
 
@@ -64,17 +64,17 @@
                     <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th scope="col">Titolo</th>
-                                <th scope="col">Data prestito</th>
+                                <th scope="col" class="col-6">Titolo</th>
+                                <th scope="col" class="d-none d-md-table-cell">Data prestito</th>
                                 <th scope="col">Stato</th>
                                 <th class="text-center" scope="col">Azioni</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td scope="row" style="font-size: small; font-style: normal;">I pilastri della terra
+                                <td style="font-size: small; font-style: normal;">I pilastri della terra
                                 </td>
-                                <td>-</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td>
                                     <p class="badge text-bg-success">Disponibile</p>
                                 </td>
@@ -99,8 +99,8 @@
                             </tr>
 
                             <tr>
-                                <td scope="row" style="font-size: small; font-style: normal;">I promessi sposi</td>
-                                <td>-</td>
+                                <td style="font-size: small; font-style: normal;">I promessi sposi</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td>
                                     <p class="badge text-bg-success">Disponibile</p>
                                 </td>
@@ -125,9 +125,9 @@
                             </tr>
 
                             <tr>
-                                <td scope="row" style="font-size: small; font-style: normal;">Il signore degli anelli
+                                <td style="font-size: small; font-style: normal;">Il signore degli anelli
                                 </td>
-                                <td>18/10/2023</td>
+                                <td class="d-none d-md-table-cell">18/10/2023</td>
                                 <td>
                                     <p class="badge bg-warning">In prestito</p>
                                 </td>
@@ -152,9 +152,9 @@
                             </tr>
 
                             <tr>
-                                <td scope="row" style="font-size: small; font-style: normal;">Harry Potter e la pietra
+                                <td style="font-size: small; font-style: normal;">Harry Potter e la pietra
                                     filosofale</td>
-                                <td>-</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td>
                                     <p class="badge text-bg-success">Disponibile</p>
                                 </td>
@@ -179,8 +179,8 @@
                             </tr>
 
                             <tr>
-                                <td scope="row" style="font-size: small; font-style: normal;">Il codice Da Vinci</td>
-                                <td>-</td>
+                                <td style="font-size: small; font-style: normal;">Il codice Da Vinci</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td>
                                     <p class="badge text-bg-danger">Non disponibile</p>
                                 </td>
@@ -205,8 +205,8 @@
                             </tr>
 
                             <tr>
-                                <td scope="row" style="font-size: small; font-style: normal;">Shining</td>
-                                <td>-</td>
+                                <td style="font-size: small; font-style: normal;">Shining</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td>
                                     <p class="badge text-bg-success">Disponibile</p>
                                 </td>
@@ -231,8 +231,8 @@
                             </tr>
 
                             <tr>
-                                <td scope="row" style="font-size: small; font-style: normal;">La divina commedia</td>
-                                <td>21/09/2023</td>
+                                <td style="font-size: small; font-style: normal;">La divina commedia</td>
+                                <td class="d-none d-md-table-cell">21/09/2023</td>
                                 <td>
                                     <p class="badge bg-warning">In prestito</p>
                                 </td>
@@ -257,8 +257,8 @@
                             </tr>
 
                             <tr>
-                                <td scope="row" style="font-size: small; font-style: normal;">Il trono di spade</td>
-                                <td>-</td>
+                                <td style="font-size: small; font-style: normal;">Il trono di spade</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td>
                                     <p class="badge text-bg-success">Disponibile</p>
                                 </td>
@@ -283,8 +283,8 @@
                             </tr>
 
                             <tr>
-                                <td scope="row" style="font-size: small; font-style: normal;">Il mondo di Sofia</td>
-                                <td>-</td>
+                                <td style="font-size: small; font-style: normal;">Il mondo di Sofia</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td>
                                     <p class="badge text-bg-danger">Non disponibile</p>
                                 </td>
@@ -309,9 +309,9 @@
                             </tr>
 
                             <tr>
-                                <td scope="row" style="font-size: small; font-style: normal;">Le cronache di Narnia: il
+                                <td style="font-size: small; font-style: normal;">Le cronache di Narnia: il
                                     leone, la strega e l'armadio</td>
-                                <td>25/07/2023</td>
+                                <td class="d-none d-md-table-cell">25/07/2023</td>
                                 <td>
                                     <p class="badge bg-warning">In prestito</p>
                                 </td>
@@ -336,8 +336,8 @@
                             </tr>
 
                             <tr>
-                                <td scope="row" style="font-size: small; font-style: normal;">Il piccolo principe</td>
-                                <td>-</td>
+                                <td style="font-size: small; font-style: normal;">Il piccolo principe</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td>
                                     <p class="badge text-bg-success">Disponibile</p>
                                 </td>
@@ -362,8 +362,8 @@
                             </tr>
 
                             <tr>
-                                <td scope="row" style="font-size: small; font-style: normal;">La storia infinita</td>
-                                <td>-</td>
+                                <td style="font-size: small; font-style: normal;">La storia infinita</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td>
                                     <p class="badge text-bg-success">Disponibile</p>
                                 </td>
@@ -424,32 +424,61 @@
                             F.A.Q.
                         </strong>
                     </div>
-                    <ul class="list-group list-group-flush p-4">
-                        <li class="list-group-item d-flex justify-content-between">Come aggiungere un nuovo libro? <svg
-                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-chevron-down" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
-                            </svg></li>
-                        <li class="list-group-item d-flex justify-content-between">Come posso accedere all'anagrafica
-                            utenti? <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-chevron-down" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
-                            </svg></li>
-                        <li class="list-group-item d-flex justify-content-between">Posso usare questa dashboard da
-                            mobile? <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-chevron-down" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
-                            </svg></li>
-                    </ul>
+                    <div class="accordion p-3" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Come aggiungere un nuovo libro?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    ...
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Come posso accedere all'anagrafica Utenti?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    ...
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Posso usare questa dashboard da mobile?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    ...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- cards-section-end -->
             </div>
         </div>
     </main>
     <!-- main-end -->
+
+    <!-- bootstrap-java-link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
